@@ -1,0 +1,24 @@
+@import "../../styles/variables.scss";
+
+.todo {
+	&__form {
+		margin-bottom: 30px;
+		&-input {
+			width: 250px;
+			border-radius: 3px;
+			padding: 8px 10px;
+			font-size: 1.4em;
+		}
+		&-btn {
+			margin-left: 5px;
+			border-radius: 3px;
+			padding: 8px 5px;
+			font-size: 1.4em;
+			transition: all 0.5s;
+			&:hover {
+				background-color: $btn-hover;
+				transition: all 0.5s;
+			}
+		}
+	}
+}

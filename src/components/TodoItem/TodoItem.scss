@@ -1,0 +1,27 @@
+.todo {
+	&__list {
+		&-item {
+			font-size: 1.7em;
+			margin-bottom: 5px;
+			color: #fff;
+			label {
+				display: flex;
+				align-items: center;
+				input {
+					cursor: pointer;
+					width: 20px;
+					height: 20px;
+				}
+				span {
+					padding: 0px 20px 0px 5px;
+				}
+				.DeleteIcon {
+					cursor: pointer;
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
