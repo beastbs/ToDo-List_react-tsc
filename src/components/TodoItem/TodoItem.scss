@@ -1,4 +1,11 @@
+@import "../../styles/variables.scss";
+
 .todo {
+	.completed {
+		text-decoration: line-through;
+		color: rgb(151, 149, 146);
+	}
+
 	&__list {
 		&-item {
 			font-size: 1.7em;
@@ -6,17 +13,25 @@
 			color: #fff;
 			label {
 				display: flex;
+				justify-content: space-between;
 				align-items: center;
-				input {
+				word-wrap: break-word;
+				.input {
+					position: relative;
 					cursor: pointer;
 					width: 20px;
 					height: 20px;
 				}
 				span {
-					padding: 0px 20px 0px 5px;
+					padding-left: 10px;
 				}
 				.DeleteIcon {
+					transition: all 0.3s;
 					cursor: pointer;
+					&:hover {
+						color: $btn-hover;
+						transition: all 0.3s;
+					}
 				}
 			}
 			&:last-child {
