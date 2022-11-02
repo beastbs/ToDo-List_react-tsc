@@ -1,4 +1,3 @@
-import TodoEmpty from "../TodoEmpty/TodoEmpty";
 import TodoItem from "../TodoItem/TodoItem";
 import "./TodoList.scss";
 
