@@ -1,6 +1,6 @@
 # To-Do list
 
-    Functionality:
+  ### Functionality:
 
     - creating tasks
     - deletion of tasks
@@ -11,7 +11,7 @@
     - prevent of creating empty task
 
 
-    What do I use:
+  ### What do I use:
 
    * React
    * TypeScript
