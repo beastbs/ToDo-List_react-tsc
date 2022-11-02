@@ -4,13 +4,13 @@
   ### Follow link to try it - https://todolist30.web.app
   ### Functionality:
 
-    - creating tasks
-    - deletion of tasks
-    - crossing text when checkbox pressed
-    - saving to local storage
-    - clear from local storage
-    - clear input after creating of task
-    - prevent of creating empty task
+   - creating tasks
+   - deletion of tasks
+   - crossing text when checkbox pressed
+   - saving to local storage
+   - clear from local storage
+   - clear input after creating of task
+   - prevent of creating empty task
 
 
   ### What do I use:
