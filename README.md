@@ -1,7 +1,5 @@
 # ToDo list
-
-
-  ### Follow link to try it - https://todolist30.web.app
+  
   ### Functionality:
 
    - creating tasks
